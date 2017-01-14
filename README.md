@@ -5,7 +5,7 @@ Alternative binary diff packages go for maximum compression at the expense of CP
 Sample usage - client side:
 
  
- 	final String key = "foo";
+ final String key = "foo";
  final int oldHashcode = FastAndRuthlessDiffImpl.deterministicHashcode(oldArray);
  final int maxNumberOfChanges = 12;
  
